@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/join_existing_game"
+          android:title="@string/join_existing_game"
+          android:icon="@android:drawable/ic_menu_add"
+          android:enabled="true"
+          android:visible="true"/>
+    <item android:id="@+id/menu_quit"
+          android:title="@string/menu_quit"
+          android:icon="@android:drawable/ic_lock_power_off"
+          android:visible="true"
+          android:enabled="true"/>
+</menu>

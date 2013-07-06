@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grzybobranie</string>
+    <string name="menu_start_game">Nowa gra</string>
+    <string name="menu_quit">Wyjście</string>
+    <string name="new_name_of_game">Nazwa rozgrywki</string>
+    <string name="new_user">Nazwa użytkownika</string>
+    <string name="new_number_of_players">Liczba graczy</string>
+    <string name="menu_join">Dołącz</string>
+    <string name="join_choose">Wybierz rozgrywkę</string>
+    <string name="ok">OK</string>
+    <string name="cube_next">Kontunuuj</string>
+    <string name="cube_stop_req">Zatrzymaj kostkę:</string>
+    <string name="join_existing_game">Dołącz gracza</string>
+    <string name="collected_mushrooms">Zebrane grzyby: </string>
+    <string name="throw_dice">Rzuć kostką</string>
+    <string name="game_over">Gra zakończona!</string>
+    <string name="results">Wyniki:</string>
+    <string name="unsuccessfull_game_add">Nie udało się dodać kolejnego gracza</string>
+    <string name="type_your_nick">Podaj swoją nazwę</string>
+    <string name="type_your_nick_and_choose_game">Podaj swoją nazwę oraz wybierz rozgrywkę</string>
+    <string name="improper_or_incomplete_details">Nieprawidlowe lub niekompletne dane</string>
+    <string name="improper_num_of_players_give_value">Nieprawidlowa liczba graczy - podaj wartosc z zakresu</string>
+    <string name="game_over_error">Gra zakończona z powodu błędu - spróbuj jeszcze raz</string>
+</resources>

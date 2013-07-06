@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="pl.edu.agh.io.mushrooming"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8"/>
+
+    <uses-feature android:name="android.hardware.wifi"/>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/icon">
+
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".GameBoard"
+                android:label="@string/app_name"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="pl.edu.agh.io.mushrooming.GAME_BOARD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DiceThrower"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="pl.edu.agh.io.mushrooming.DICE_THROWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NewGame"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="pl.edu.agh.io.mushrooming.NEW_GAME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".JoinGame"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="pl.edu.agh.io.mushrooming.JOIN_GAME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".JoinExistingGame"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="pl.edu.agh.io.mushrooming.JOIN_EXISTING_GAME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GameOver"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="pl.edu.agh.io.mushrooming.GAME_OVER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest> 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<board>
+    <fields>
+        <field x="0" y="0">start_finish</field>
+        <field x="150" y="0">basic_field</field>
+        <field x="300" y="0">basic_field</field>
+        <field x="450" y="0" value="-2">basic_field</field>
+        <field x="600" y="0" value="1">basic_field</field>
+        <field x="750" y="0">basic_field</field>
+        <field x="900" y="0">basic_field</field>
+        <field x="1050" y="0">basic_field_left_down_corner</field>
+        <field x="1050" y="150">basic_field_left_up_corner</field>
+        <field x="1050" y="300" value="1">basic_field</field>
+        <field x="900" y="300" value="1">basic_field</field>
+        <field x="750" y="300">basic_field</field>
+        <field x="600" y="300">basic_field</field>
+        <field x="450" y="300">basic_field</field>
+        <field x="300" y="300">basic_field</field>
+        <field x="150" y="300" value="1">basic_field</field>
+        <field x="0" y="300">basic_field_right_down_corner</field>
+        <field x="0" y="450">basic_field_right_up_corner</field>
+        <field x="0" y="600">basic_field</field>
+        <field x="150" y="600" value="-2">basic_field</field>
+        <field x="300" y="600" value="-2">basic_field</field>
+        <field x="450" y="600">basic_field</field>
+        <field x="600" y="600">basic_field</field>
+        <field x="750" y="600">basic_field</field>
+        <field x="900" y="600" value="-2">basic_field</field>
+        <field x="1050" y="600">basic_field_left_down_corner</field>
+        <field x="1050" y="750">basic_field_left_up_corner</field>
+        <field x="1050" y="900" value="1">basic_field</field>
+        <field x="900" y="900">basic_field</field>
+        <field x="750" y="900" value="1">basic_field</field>
+        <field x="600" y="900" value="-2">basic_field</field>
+        <field x="450" y="900" value="1">basic_field</field>
+        <field x="300" y="900">basic_field</field>
+        <field x="150" y="900">basic_field</field>
+        <field x="0" y="900">basic_field_right_down_corner</field>
+        <field x="0" y="1050">basic_field_right_up_corner</field>
+        <field x="0" y="1200" value="-2">basic_field</field>
+        <field x="150" y="1200" value="1">basic_field</field>
+        <field x="300" y="1200">basic_field</field>
+        <field x="450" y="1200">basic_field</field>
+        <field x="600" y="1200">basic_field</field>
+        <field x="750" y="1200">basic_field</field>
+        <field x="900" y="1200" value="1">basic_field</field>
+        <field x="1050" y="1200">basic_field_left_down_corner</field>
+        <field x="1050" y="1350">basic_field_left_up_corner</field>
+        <field x="1050" y="1500" value="-2">basic_field</field>
+        <field x="900" y="1500">basic_field</field>
+        <field x="750" y="1500" value="1">basic_field</field>
+        <field x="600" y="1500">basic_field</field>
+        <field x="450" y="1500" value="-2">basic_field</field>
+        <field x="300" y="1500">basic_field</field>
+        <field x="150" y="1500" value="1">basic_field</field>
+        <field x="0" y="1500" value="2">start_finish</field>
+    </fields>
+    <players>
+        <player x="0" y="0">red</player>
+        <player x="0" y="0">blue</player>
+        <player x="0" y="0">green</player>
+        <player x="0" y="0">yellow</player>
+    </players>
+    <addons>
+        <addon x="450" y="0">red_mushroom</addon>
+        <addon x="600" y="0">basic_brown_mushroom_lower</addon>
+        <addon x="1050" y="300">basic_brown_mushroom_lower</addon>
+        <addon x="900" y="300">basic_brown_mushroom_lower</addon>
+        <addon x="150" y="300">basic_brown_mushroom_lower</addon>
+        <addon x="150" y="600">red_mushroom</addon>
+        <addon x="300" y="600">red_mushroom</addon>
+        <addon x="900" y="600">red_mushroom</addon>
+        <addon x="1050" y="900">basic_brown_mushroom_lower</addon>
+        <addon x="750" y="900">basic_brown_mushroom_lower</addon>
+        <addon x="600" y="900">red_mushroom</addon>
+        <addon x="450" y="900">basic_brown_mushroom_lower</addon>
+        <addon x="0" y="1200">red_mushroom</addon>
+        <addon x="150" y="1200">basic_brown_mushroom_lower</addon>
+        <addon x="450" y="1200">addon_grass</addon>
+        <addon x="900" y="1200">basic_brown_mushroom_lower</addon>
+        <addon x="1050" y="1500">red_mushroom</addon>
+        <addon x="750" y="1500">basic_brown_mushroom_lower</addon>
+        <addon x="450" y="1500">red_mushroom</addon>
+        <field x="300" y="1500">addon_daisies</field>
+        <addon x="150" y="1500">basic_brown_mushroom_lower</addon>
+    </addons>
+
+    <foreground>
+        <addon x="0" y="0">big_tree</addon>
+        <addon x="400" y="1100">funky_tree</addon>
+    </foreground>
+</board>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+    <RelativeLayout
+            android:id="@+id/details_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true">
+
+        <TextView
+                android:id="@+id/result_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/collected_mushrooms"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"/>
+
+        <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/result_description"
+                android:paddingBottom="10dp"/>
+
+        <Button
+                android:id="@+id/throw_dice_req"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/throw_dice"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:onClick="throwDice"
+                android:visibility="gone"/>
+    </RelativeLayout>
+
+    <LinearLayout
+                android:id="@+id/current_player_layout"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true">
+
+        <ImageView
+                android:id="@+id/current_player_pawn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+        <TextView
+                android:id="@+id/current_player_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:paddingLeft="5dp"/>
+
+
+    </LinearLayout>
+
+    <pl.edu.agh.io.mushrooming.views.BoardView
+        android:id="@+id/board_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/current_player_layout"
+        android:layout_above="@id/details_layout"
+        android:background="@color/board_background"/>
+
+</RelativeLayout>
